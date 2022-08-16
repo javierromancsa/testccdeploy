@@ -16,4 +16,4 @@ cd /home/$username
 git clone https://github.com/javierromancsa/testccdeploy.git
 
 cd testccdeploy/script
-python ccloud_install.py --azureSovereignCloud $azureSovereignCloud --tenantId $tenantId --applicationId $applicationId --applicationSecret $applicationSecret --username $username --hostname $hostname --password $password --acceptTerms
+python ccloud_install.py --azureSovereignCloud $azureSovereignCloud --tenantId $tenantId --applicationId $applicationId --applicationSecret $applicationSecret --username ccportaladmin --hostname $hostname --password $password --acceptTerms
