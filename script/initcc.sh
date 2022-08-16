@@ -13,7 +13,7 @@ done
 yum install -y git
 
 cd /home/$username
-git clone <git repo URL>
+git clone https://github.com/javierromancsa/testccdeploy
 
-cd AzureCycleCloudArmTemplate/script
+cd testccdeploy/script
 python ccloud_install.py --azureSovereignCloud $azureSovereignCloud --tenantId $tenantId --applicationId $applicationId --applicationSecret $applicationSecret --username $username --hostname $hostname --password $password --acceptTerms
